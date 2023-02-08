@@ -19,10 +19,10 @@
     "sass": "^1.58.0"
   },
   "scripts": {
-    "start": "react-scripts-rewired start",
-    "build": "react-scripts-rewired build",
-    "test": "react-scripts-rewired test",
-    "eject": "react-scripts-rewired eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
