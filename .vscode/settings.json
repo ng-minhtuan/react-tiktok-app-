@@ -2,4 +2,6 @@
   "editor.tabSize": 2,
   "editor.letterSpacing": 0,
   "editor.indentSize": "tabSize",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
