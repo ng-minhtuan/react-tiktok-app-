@@ -9,8 +9,9 @@ import 'tippy.js/dist/tippy.css'; // optional
 
 import styles from './Header.module.scss';
 import images from '~/assets/images';
-import { Wrapper as PopperWrapper } from '~/components/Layouts/components/Popper'
+import { Wrapper as PopperWrapper } from '~/components/Popper'
 import AccountItems from '~/components/AccountItems';
+import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
 
@@ -72,7 +73,7 @@ function Header() {
         </Tippy>
 
         <div className={cx('action')}>
-
+          <Button primary large>Log in</Button>
         </div>
       </div>
     </header>
